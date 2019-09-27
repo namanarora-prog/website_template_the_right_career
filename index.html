@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/trc_logo.png">
+    <title>Home - The Right Career</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!--style="background-color: rgb(248,159,50);color: rgb(42,61,110);"-->
+    <style>
+        html,
+        body {
+            font-family: 'Raleway';
+        }
+        
+          .carousel-item img {
+        width: 100%;
+      height: 100%; 
+        }
+
+        .carousel-item{
+    max-height: 532px;
+    
+}
+
+
+      /*  .carousel-image-1 {
+            background: url('../images/img3.jpg');
+            background-size: cover;
+        }
+
+        .carousel-image-2 {
+            background: url('../images/img4.jpg');
+            background-size: cover;
+        }*/
+
+        .carousel-inner .carousel-item.active .carousel-caption {
+            transition: opacity 1s, margin-bottom 1s;
+            opacity: 1;
+            margin-bottom: 40px;
+        }
+
+        .carousel-inner .carousel-item .carousel-caption {
+            opacity: 0;
+            margin-bottom: -60px;
+        }
+
+        #logo {
+            height: 100px;
+            width: 195px;
+            transition: all 1s;
+        }
+
+        .navbar .nav-item .active {
+            border-left: 3px solid rgb(248, 159, 50);
+        }
+
+        #main_nav .dropdown-menu a:hover {
+            background-color: rgb(42, 61, 110);
+            color: white;
+            text-decoration: none;
+        }
+
+        #main_nav .dropdown-menu a.active {
+            background-color: rgb(42, 61, 110);
+        }
+
+        .card {
+            background-color: rgb(42, 61, 110);
+            color: white;
+        }
+
+        #button {
+            display: inline-block;
+            background-color: rgb(42, 61, 110);
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border-radius: 4px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            transition: background-color .3s,
+                opacity .5s, visibility .5s;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1000;
+        }
+
+        #button::after {
+            content: "\f077";
+            font-family: FontAwesome;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 2em;
+            line-height: 50px;
+            color: #fff;
+        }
+
+        #button:hover {
+            cursor: pointer;
+            background-color: rgb(248, 159, 50);
+        }
+
+        #button:active {
+            background-color: rgb(248, 159, 50);
+        }
+
+        #button.show {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Back to top button -->
+    <a id="button"></a>
+
+
+    <section id="no">
+        <nav class="navbar" style="background-color: rgb(248,159,50);color: rgb(42,61,110);">
+            <div class="container">
+                <h5 class="text-center font-weight-bold">Any Questions!! Call Us Now:- <font face="arial">+91
+                        75-9996-9997</font>
+                </h5>
+            </div>
+        </nav>
+
+        <nav class="navbar bg-light fixed-top mt-5 navbar-light navbar-expand-sm" id="main_nav">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img id="logo" src="images/trc_logo.png" class="img-fluid"
+                        alt="logo"> </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav_section">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav_section">
+                    <ul class="navbar-nav nav ml-auto">
+                        <li class="nav-item mr-3">
+                            <a href="#no" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a href="#explore" class="nav-link">Explore</a>
+                        </li>
+                        <li class="nav-item mr-3 dropdown">
+                            <a href="#" id="services" class="nav-link dropdown-toggle"
+                                data-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu no-gutters bg-light" style="border: none;">
+                                <a href="#ap_test" class="dropdown-item mt-5">Aptitude Assessment</a>
+                                <a href="#ca_cc" class="dropdown-item mt-2">Career Counselling</a>
+                                <a href="#cai" class="dropdown-item mt-2">Career Info</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a href="#faq" class="nav-link">FAQ'S</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="carousel slide" style="margin-top: 125px;" id="showcase_carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#showcase_carousel" class="active" data-slide-to="0"></li>
+                <li data-target="#showcase_carousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="images/img3.jpg" alt="First Slide">
+                    <div class="container">
+                        <div class="carousel-caption text-right text-white d-none d-sm-block">
+                            <h1 class="font-weight-bold text-uppercase">Do You Know</h1>
+                            <h1 class="font-weight-bold text-uppercase">your Career Destination?</h1>
+                            <h3 class="font-weight-bold text-uppercase">Discover It Now!</h3>
+                            <a class="btn btn-danger btn-lg">Discover</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="images/img4.png" alt="Second Slide">
+                    <div class="container">
+                        <div class="carousel-caption text-center text-primary d-none d-sm-block">
+                            <h1 class="font-weight-bold text-uppercase">Simplify your career decision</h1>
+                            <h3 class="font-weight-bold text-uppercase">Build an excitement with your natural
+                                strengths</h3>
+                            <a class="btn btn-primary btn-lg text-white">Let's Go</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" data-slide="prev" data-target="#showcase_carousel">
+                <span class="carousel-control-prev-icons"></span>
+            </a>
+            <a class="carousel-control-next" data-slide="next" data-target="#showcase_carousel">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </section>
+
+    <section id="explore">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mt-5 mb-5">
+                            <h1 class="font-weight-bold text-center text-uppercase">Who Are We?</h1>
+                            <P>Right career selection at the right time is crucial to ensure a good head start to your
+                                career. Career confusion and being indecisive can affect you at any stage of your
+                                career, thus it is important to get the right support to seek clarity and plan ahead.
+                                Being successful in a career takes extensive efforts, and with an experienced mentor,
+                                your career development efforts can find the right direction.
+                            </P>
+                            <p>Your career is your responsibility and helping you steer it in the right direction is
+                                ours. We help you develop a set of career goals, strategy and options based on your
+                                aptitude, interests, personality, values and skills, through our extensive career
+                                planning and continuous guidance, with a plan, you will be well equipped to self-manage
+                                your career and take advantage of changes in the economy and job market rather than
+                                becoming a victim of change. Your career decisions will drastically impact your
+                                lifestyle.</p>
+                            <p>To give you all that takes to build a successful career, Dr Sanjay Wadhwa brings to you
+                                ‘The Right Career’. It is the most-advanced platform for career assessment, career
+                                guidance and career counseling, specially tailored for the needs of school students of
+                                class 9TH, 10th, 11TH & 12th and college students of undergraduate courses. ‘The Right
+                                Career’ will help you discover your perfect career through its 3 dimensional career
+                                assessment, and revolutionary approach to career counselling and career guidance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-white" style="background-color: rgb(42,61,110);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mt-5 mb-5">
+                            <h1 class="font-weight-bold text-center text-uppercase">What We Offer?</h1>
+                            <section id="ap_test">
+                                <h3 class="mt-5">APTITUDE ASSESMENT</h3>
+                                <p>Only Career Aptitude Assessment Test is designed to understand where your unique set
+                                    of strengths, aptitudes and skills lie, in order to recommend the right course of
+                                    action for you. ‘The Right Career’ Career Assessment Test evaluates you across
+                                    multiple dimensions including Personality, Aptitude, Orientation, Interest and
+                                    Emotional Quotient to suggest you the apt career options. Post the test, you get
+                                    detailed career development plans and expert guidance within the 32-page career
+                                    report itself, so you can take the first step towards achieving your career goals.
+                                    The ‘A Right Career’ CAAT helps you understand your strengths and weaknesses better
+                                    to guide you towards making the most accurate and well-informed career decisions.
+                                    ‘The Right Career’ career assessment is a unique career guidance and assessment
+                                    program in which tested and proprietary psychometric tools and methodologies are
+                                    used to unravel the real talents and skills in students. The career assessment test
+                                    helps recognize the "right" career fit for students and then provides counselling to
+                                    help them achieve their “right” fit career.
+                                </p>
+                                <p>‘The Right Career’ career assessment is a one-of-its-kind unique psychometric tool
+                                    which will help you to achieve your potential by providing important information
+                                    about your strengths and weaknesses. The rock-solid assessment of your talent and
+                                    abilities will give you the confidence and courage to pursue a career with full zest
+                                    and also encourage you to pursue the right beginning, which will ultimately direct
+                                    you towards the successful achievement of your dreams.</p>
+                                <p>You will get a 30 page report after your test is done. ‘The Right Career’s
+                                    comprehensive 30 page career Aptitude assessment report analyses each of the testing
+                                    element in detail, which includes description of the parameter tested, your
+                                    performance on that element, expert analysis of your performance, and suggestions to
+                                    improve on a particular element. The report is complete with analysis on a total of
+                                    56 elements, which includes 4 orientation styles, 20 interest areas, 15 personality
+                                    traits, 10 aptitudes and 7 emotional & social intelligence factors. You will see a
+                                    sample report in the office at the time of booking the appointment.
+
+                                    The assessments used in ‘The Right Career’ are indeed based on scientifically
+                                    established principles of behavioral sciences. It is only through correct
+                                    application of specialized psychometric analysis that one can truly figure out the
+                                    varying degrees of inherent APTITUDES, the different dimensions of PERSONALITY,
+                                    INTERESTS and align them to come together and make a career decision
+                                </p>
+                            </section>
+                            <section id="ca_cc">
+                                <h3 class="mt-5 text-uppercase mt-5">Career counselling</h3>
+                                <p>
+                                    Career counselling is the process of giving advice, support and guidance for
+                                    selecting the right stream after class 10th, and the right career after 12th and
+                                    during undergraduate studies. ‘The Right Career’ lets you explore different
+                                    career options, their scope, colleges and opportunities, and help you make the
+                                    right career choice, best suited to your skill set
+                                </p>
+                                <p>Career Counselling takes the benefits of CAAT to the next level. It is the
+                                    process where Chief Counsellor of ‘The Right Career’, Dr Sanjay Wadhwa will help
+                                    you on your path to career development and career success on the basis of your
+                                    Career Aptitude Assessment Report. Dr Sanjay Wadhwa will provide career guidance
+                                    by building customized career action plans and road map, provide personalized
+                                    support, and help you at every step along the way to a successful career. Such
+                                    extensive support will help you go a long way in your career.
+
+                                </p>
+                                <p>Understanding yourself is a critical aspect of career and educational exploration
+                                    and planning. The more you know about your career related interests, values,
+                                    skills, personality type and preferences, the better equipped you will be to
+                                    identify the career fields, major areas of study and training programs, and
+                                    education pathways that are compatible with your personal attributes.
+                                    ‘The Right Career’ system will help you develop an accurate self-assessment of
+                                    your personal qualities:
+                                </p>
+                                <ul>
+                                    <li>Your Work Interests are a reflection of the kinds of work related activities
+                                        and tasks you most enjoy doing. </li>
+                                    <li>Your Aptitudes are a reflection of your talents and the types of things you
+                                        easily learn and perform well. </li>
+                                    <li>Your Personality Type is a description of how you react to certain
+                                        situations and people, how you make decisions, how you organize information
+                                        and go about solving problems. </li>
+                                </ul>
+                            </section>
+                            <section id="cai">
+                                <h3 class="mt-5 text-uppercase">CAREER INFORMATION</h3>
+                                <p>Career assessments are designed to help a student discover your innate traits,
+                                    skills, and talents. The biggest benefit is, of course, better understanding of
+                                    one’s career needs and possibilities based on what you are, and discovering all the
+                                    alternatives that could work for you. When coupled with professional counsel, career
+                                    assessments can very well help you to draft a roadmap for their entire career.
+                                    Many students today wonder, if not this, then what? Career assessments not only help
+                                    a student make the right career call, they also provide the answer to what other
+                                    domains you can go in, if not a particular one. Thus, at all times, a student has
+                                    the flexibility of moving from one career domain to another, armed with all the
+                                    necessary information about the alternate career option as well.
+
+                                </p>
+                                <p>You will get elaborate information regarding all the 5 best fit career options chosen
+                                    on the basis of your CAAT report. This information will include the following about
+                                    every career option: career opportunities , eligibility , courses to pursue, leading
+                                    colleges offerings the courses ( in India & abroad ), fees , major entrance exams,
+                                    expected earnings, job profiles, work description, important facts, career prospects
+                                    and pros and cons of every suggested career options.
+
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="explore">
+            <div class="text-black" style="background-color: rgb(248,159,50);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mt-5 mb-5">
+                                <h1 class="font-weight-bold text-center text-uppercase">Whom We Help?</h1>
+                                <p class="mt-4">Taking a session at ‘The Right Career’ is one of the easiest ways out of
+                                    a
+                                    career
+                                    dilemma. Be it confusion about which stream to take after class 10th, or what
+                                    careers to
+                                    pursue after 12th, career assessments have an answer. Here’s how career assessments
+                                    come
+                                    in handy for different career needs:</p>
+
+                                <div>
+                                    <h3 class="mt-5 text-uppercase">Class 9th – 10th Students</h3>
+                                    <p>The biggest concern this set of students have is, about selecting the right
+                                        stream in
+                                        class 11th. Career assessments can help students figure out which stream is the
+                                        most
+                                        suitable for their set of skills, interests and traits and can align subject
+                                        combinations with their ambitions.</p>
+                                </div>
+                                <div>
+                                    <h3 class="mt-5 text-uppercase">Class 11th – 12th Students</h3>
+                                    <p>Students who are confused with respect to the career they should pursue, can make
+                                        use
+                                        of
+                                        career assessments to drive away the confusion. Career assessments suggest
+                                        different
+                                        careers that a student can venture into. ‘The Right Career’ CAAT, for example,
+                                        suggests
+                                        5 best-fit career matches, that a student is more likely to succeed in.
+                                    </p>
+                                </div>
+                                <div>
+                                    <h3 class="mt-5 text-uppercase">Undergraduate College Students</h3>
+                                    <p>If you think career confusion takes a back seat when a student gets
+                                        in
+                                        to
+                                        college, you
+                                        are mistaken. College brings a different set of confusions, whether to pursue
+                                        masters
+                                        immediately or work. What to specialize in? Which college to do it from? These
+                                        are
+                                        some
+                                        of the questions that college students think about. A good career assessment,
+                                        coupled
+                                        with a little bit of research and counselling can do the trick over here, and
+                                        help
+                                        students formulate their own action plan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mt-5 mb-5">
+                                <h1 class="font-weight-bold text-center text-uppercase mb-5">
+                                    <font face="arial">5</font> EASY STEPS
+                                </h1>
+                                <img src="images/steps.png" class="img-fluid" alt="5 Easy Steps">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-white" style="background-color: rgb(42,61,110);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mt-5 mb-5">
+                                <h1 class="font-weight-bold text-center text-uppercase mb-5">WHY RIGHT CAREER</h1>
+                                <P>The global employment scenario has drastically changed in the last few years. Many
+                                    new careers have emerged in the 21st century and are increasingly gaining huge
+                                    momentum. Some of these careers were almost unheard of earlier. For example:
+                                    nano-technologist, stem cell researcher, waste management consultant, wind turbine
+                                    technician, bariatric surgeon, laparoscopic surgeon amongst many others.
+                                </P>
+                                <p>
+                                    There has also been an upsurge in various “New Age Careers” like fitness trainer,
+                                    yoga instructor, aroma and spa therapist among many others
+                                </p>
+                                <p>Given the multitude of career options available for a person, career confusion is
+                                    bound to happen. Therefore, it becomes all the more imperative that every individual
+                                    must go for career assessment in order to define a proper career path for himself.
+                                </p>
+                                <p>Some of the key reasons as to why you should take career assessment and what are its
+                                    benefits are -</p>
+                                <ul class="mb-5">
+                                    <li>It will help you shortlist select few careers that you can pursue from a whole
+                                        sea of career options that are available in the market.</li>
+                                    <li>You will become more informed about your own strengths and weaknesses, so that
+                                        you can adjust to market reality faster.</li>
+                                    <li>You will become more informed about your own strengths and weaknesses, so that
+                                        you can adjust to market reality faster.</li>
+                                    <li>Work stress or unhappiness at work, which is often attributed to an inability to
+                                        cope with the work pressure and the feeling of being a “misfit” in the career
+                                        one is pursuing, can be eliminated if one knows what career is the BEST FIT
+                                        career.</li>
+                                    <li>Career planning is continuous; and since aptitude remains relatively stable, you
+                                        can use the same assessment and plan whenever one feels the need.</li>
+                                    <li>Knowing yourself and making informed choice would help you to pursue your dream
+                                        career and lead a successful life.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--Faqs-->
+    <section id="faq">
+        <div class="text-black" style="background-color: rgb(248,159,50);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mt-5 mb-5">
+                            <h1 class="font-weight-bold text-center text-uppercase mb-5">FAQ's</h1>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div id="acc1">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c1" class="text-white" data-parent="#acc1"
+                                                        data-toggle="collapse">
+                                                        What is Career Guidance?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c1" class="collapse">
+                                                <div class="card-body text-white">
+                                                    <p>Career Guidance is the process of giving advice, support and
+                                                        guidance for selecting the right stream after class 10th,
+                                                        and
+                                                        the right career after 12th and during undergraduate
+                                                        studies.
+                                                        ‘The Right Career’ lets you explore different career
+                                                        options,
+                                                        their scope, colleges and opportunities, and help you make
+                                                        the
+                                                        right career choice, best suited to your skill set. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c2" class="text-white" data-parent="#acc1"
+                                                        data-toggle="collapse">
+                                                        What is Career Aptitude Assessment Test?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c2" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Only Career Aptitude Assessment Test is designed to
+                                                        understand
+                                                        where your unique set of strengths, aptitudes and skills
+                                                        lie, in
+                                                        order to recommend the right course of action for you. ‘The
+                                                        Right Career’ Career Assessment Test evaluates you across
+                                                        multiple dimensions including Personality, Aptitude,
+                                                        Orientation, Interest and Emotional Quotient to suggest you
+                                                        the
+                                                        apt career options. Post the test, you get detailed career
+                                                        development plans and expert guidance within the 30-page
+                                                        career
+                                                        report itself, so you can take the first step towards
+                                                        achieving
+                                                        your career goals. The ‘A Right Career’ CAAT helps you
+                                                        understand your strengths and weaknesses better to guide you
+                                                        towards making the most accurate and well-informed career
+                                                        decisions.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c3" class="text-white" data-parent="#acc1"
+                                                        data-toggle="collapse">
+                                                        What is Career Counselling?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c3" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Career Counselling takes the benefits of CAAT to the next
+                                                        level.
+                                                        It is the process where Chief Counsellor of ‘The Right
+                                                        Career’,
+                                                        Dr Sanjay Wadhwa will help you on your path to career
+                                                        development and career success on the basis of your Career
+                                                        Aptitude Assessment Report. Dr Sanjay Wadhwa will provide
+                                                        career
+                                                        guidance by building customized career action plans and road
+                                                        map, direct you back to the right path, provide personalized
+                                                        support, and help you at every step along the way to a
+                                                        successful career. Such extensive support will help you go a
+                                                        long way in your career.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c7" class="text-white" data-parent="#acc1"
+                                                        data-toggle="collapse">
+                                                        I am in class eleventh and have already chosen my stream,
+                                                        what do I do?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c7" class="collapse">
+                                                <div class="card-body">
+                                                    <p>You are already in class 11 and a step closer to your career.
+                                                        Every combination of subjects available, diverge out to a
+                                                        variety of career options. The right Aptitude tests and
+                                                        Career Counselling helps one zero down to the most suitable
+                                                        paths from amongst the available ones. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c10" class="text-white" data-parent="#acc1"
+                                                        data-toggle="collapse">
+                                                        Are 'The Right Career' Assessments based on scientific
+                                                        principles?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c10" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Yes, the assessments used in ‘The Right Career’ are indeed
+                                                        based on scientifically established principles of behavioral
+                                                        sciences. It is only through correct application of
+                                                        specialized psychometric analysis that one can truly figure
+                                                        out the varying degrees of inherent APTITUDES, the different
+                                                        dimensions of PERSONALITY, interests and align them to come
+                                                        together and make career decision.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c11" class="text-white" data-parent="#acc1"
+                                                        data-toggle="collapse">
+                                                        Are 'The Right Career' Assessments based on scientific
+                                                        principles?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c11" class="collapse">
+                                                <div class="card-body">
+                                                    <p>The Right Career’ career assessment is a unique career
+                                                        guidance and assessment program in which tested and
+                                                        proprietary psychometric tools and methodologies are used to
+                                                        unravel the real talents and skills in students. The career
+                                                        assessment test helps recognize the "right" career fit for
+                                                        students and then provides counselling to help them achieve
+                                                        their “right” fit career.</p>
+                                                    <p> ‘The Right Career’ career assessment is a one-of-its-kind
+                                                        unique psychometric tool which will help you to achieve your
+                                                        potential by providing important information about your
+                                                        strengths and weaknesses. The rock-solid assessment of your
+                                                        talent and abilities will give you the confidence and
+                                                        courage to pursue a career with full zest and also encourage
+                                                        you to pursue the right beginning, which will ultimately
+                                                        direct you towards the successful achievement of your
+                                                        dreams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c14" class="text-white" data-parent="#acc1"
+                                                        data-toggle="collapse">
+                                                        How can 'The Right Career' help with Career Guidance?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c14" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Understanding yourself is a critical aspect of career and
+                                                        educational exploration and planning. The more you know
+                                                        about your career related interests, values, skills,
+                                                        personality type and preferences, the better equipped you
+                                                        will be to identify the career fields, major areas of study
+                                                        and training programs, and education pathways that are
+                                                        compatible with your personal attributes.
+                                                        ‘The Right Career’ system will help you develop an accurate
+                                                        self-assessment of your personal qualities:
+                                                    </p>
+                                                    <ul>
+                                                        <li>Your Work Interests are a reflection of the kinds of
+                                                            work related activities and tasks you most enjoy doing.
+                                                        </li>
+                                                        <li>Your Aptitudes are a reflection of your talents and the
+                                                            types of things you easily learn and perform well. </li>
+                                                        <li>Your Personality Type is a description of how you react
+                                                            to certain situations and people, how you make
+                                                            decisions, how you organize information and go about
+                                                            solving problems. </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c16" class="text-white" data-parent="#acc1"
+                                                        data-toggle="collapse">
+                                                        What information will I get in respect of the suggested
+                                                        career options?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c16" class="collapse">
+                                                <div class="card-body">
+                                                    <p>You will get elaborate information regarding all the 55 best
+                                                        fit career options on the basis of your CAAT report. this
+                                                        information will include the following about every career
+                                                        option: career opportunities , eligibility , courses to
+                                                        pursue, leading colleges offerings the courses ( in india &
+                                                        abroad ), fees , major entrance exams, expected earnings,
+                                                        job profiles, work description, important facts, career
+                                                        prospects and pros and cons of every suggested career
+                                                        options.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c18" class="text-white" data-parent="#acc1"
+                                                        data-toggle="collapse">
+                                                        How many sessions are involved in this program?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c18" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Only 2 sessions. First is the general interaction (15-20
+                                                        minutes) session followed by test taking and finally the
+                                                        guidance session.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-6 col-sm-12">
+                                    <div id="acc2">
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c4" class="text-white" data-parent="#acc2"
+                                                        data-toggle="collapse">
+                                                        Who Should Take A Career Counselling?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c4" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Taking a session at ‘The Right Career’ is one of the easiest
+                                                        ways out of a career dilemma. Be it confusion about which
+                                                        stream to take after class 10th, or what careers to pursue
+                                                        after 12th, career assessments have an answer. Here’s how
+                                                        career assessments come in handy for different career needs:
+                                                    </p>
+                                                    <h4>Class 9th – 10th Students</h4>
+                                                    <p>The biggest concern this set of students have is, about
+                                                        selecting the right stream in class 11th. Career assessments
+                                                        can help students figure out which stream is the most
+                                                        suitable for their set of skills, interests and traits and
+                                                        can align subject combinations with their ambitions.</p>
+                                                    <h4>Class 11th – 12th Students</h4>
+                                                    <p>Students who are confused with respect to the career they
+                                                        should pursue, can make use of career assessments to drive
+                                                        away the confusion. Career assessments suggest different
+                                                        careers that a student can venture into. ‘The Right Career’
+                                                        CAAT, for example, suggests 5 best-fit career matches, that
+                                                        a student is more likely to succeed in.</p>
+                                                    <h4>Undergraduate College Students</h4>
+                                                    <p>If you think career confusion takes a back seat when a
+                                                        student gets in to college, you are mistaken. College brings
+                                                        a different set of confusions, whether to pursue masters
+                                                        immediately or work. What to specialize in? Which college to
+                                                        do it from? These are some of the questions that college
+                                                        students think about. A good career assessment, coupled with
+                                                        a little bit of research and counselling can do the trick
+                                                        over here, and help students formulate their own action
+                                                        plan.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c5" class="text-white" data-parent="#acc2"
+                                                        data-toggle="collapse">
+                                                        How is Career Aptitude Assessment & Counselling Beneficial?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c5" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Career assessments are designed to help a student discover
+                                                        your innate traits, skills, and talents. The biggest benefit
+                                                        is, of course, better understanding of your career needs and
+                                                        possibilities based on what you are, and discovering all the
+                                                        alternatives that could work for you. When coupled with
+                                                        professional counsel, career assessments can very well help
+                                                        you to draft a roadmap for their entire career.
+                                                        Many students today wonder, if not this, then what? Career
+                                                        assessments not only help a student make the right career
+                                                        call, they also provide the answer to what other domains you
+                                                        can go in, if not a particular one. Thus, at all times, a
+                                                        student has the flexibility of moving from one career domain
+                                                        to another, armed with all the necessary information about
+                                                        the alternate career option as well.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c6" class="text-white" data-parent="#acc2"
+                                                        data-toggle="collapse">
+                                                        Who is the person behind “The Right Career”?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c6" class="collapse">
+                                                <div class="card-body">
+                                                    <p>‘The Right Career’ is the brain child of Dr Sanjay Wadhwa.
+                                                        Dr. He is a well renowned name in field of education with
+                                                        over 20 years of experience. He is the key man and founding
+                                                        director of Vyas World School & Regional College. Both these
+                                                        institutions are leaders in their respective fields. He is
+                                                        credited with counseling more than 10,000 students as on
+                                                        date some of whom are successfully placed in top positions
+                                                        in different sectors.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c8" class="text-white" data-parent="#acc2"
+                                                        data-toggle="collapse">
+                                                        How Do Career Assessments Work?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c8" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Before, we go on to understand how career assessments work,
+                                                        it’s important to first know how students today approach
+                                                        career decisions.
+                                                        Broadly, there are two prominent trends as to how students
+                                                        make their career choices.
+                                                        <ol type="a">
+                                                            <li>They identify their ‘interest’ and set off in that
+                                                                chosen
+                                                                path.</li>
+                                                            <li>They choose what’s popular and what their friends
+                                                                are
+                                                                going to do.</li>
+                                                        </ol>
+                                                        Both of these approaches raise more questions than they
+                                                        answer, as both of them do not take into consideration
+                                                        critical elements which influence career decisions in big
+                                                        ways.
+                                                        The underlying process in career assessments, is quite
+                                                        simple actually. Career assessments lay down all the
+                                                        possible elements one needs to consider to make a career
+                                                        decision, in front of students, who are now required to
+                                                        select a response that most resonates with them.
+                                                        Thus, a student keeps streamlining towards their best-fit
+                                                        career, with the progression of the assessment, essentially
+                                                        making it easier for students to decipher their true
+                                                        interest and match it to other critical elements – skill,
+                                                        aptitude, personality, required to take an informed career
+                                                        decision.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card ">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    <a href="#c9" class="text-white" data-parent="#acc2"
+                                                        data-toggle="collapse">
+                                                        Why Should You Take Career Counselling from ‘The Right
+                                                        Career’?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="c9" class="collapse">
+                                                <div class="card-body">
+                                                    <p>The global employment scenario has drastically changed in the
+                                                        last few years. Many new careers have emerged in the 21st
+                                                        century and are increasingly gaining huge momentum. Some of
+                                                        these careers were almost unheard of earlier. For example:
+                                                        nano-technologist, stem cell researcher, waste management
+                                                        consultant, wind turbine technician, bariatric surgeon,
+                                                        laparoscopic surgeon amongst many others.</p>
+
+                                                    <p> There has also been an upsurge in various “New Age Careers”
+                                                        like fitness trainer, yoga instructor, aroma and spa
+                                                        therapist among many others.</p>
+                                                    <p>
+                                                        Given the multitude of career options available for a
+                                                        person, career confusion is bound to happen. Therefore, it
+                                                        becomes all the more imperative that every individual must
+                                                        go for career assessment in order to define a proper career
+                                                        path for himself.
+                                                        <p>Some of the key reasons as to why you should take career
+                                                            assessment and what are its
+                                                            benefits are -</p>
+                                                        <ul class="mb-5">
+                                                            <li>It will help you shortlist select few careers that
+                                                                you can pursue from a whole
+                                                                sea of career options that are available in the
+                                                                market.</li>
+                                                            <li>You will become more informed about your own
+                                                                strengths and weaknesses, so that
+                                                                you can adjust to market reality faster.</li>
+                                                            <li>You will become more informed about your own
+                                                                strengths and weaknesses, so that
+                                                                you can adjust to market reality faster.</li>
+                                                            <li>Work stress or unhappiness at work, which is often
+                                                                attributed to an inability to
+                                                                cope with the work pressure and the feeling of being
+                                                                a “misfit” in the career
+                                                                one is pursuing, can be eliminated if one knows what
+                                                                career is the BEST FIT
+                                                                career.</li>
+                                                            <li>Career planning is continuous; and since aptitude
+                                                                remains relatively stable, you
+                                                                can use the same assessment and plan whenever one
+                                                                feels the need.</li>
+                                                            <li>Knowing yourself and making informed choice would
+                                                                help you to pursue your dream
+                                                                career and lead a successful life.</li>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card ">
+                                                <div class="card-header">
+                                                    <h5 class="mb-0">
+                                                        <a href="#c12" class="text-white" data-parent="#acc2"
+                                                            data-toggle="collapse">
+                                                            How long does it take to complete the 'The Right Career'
+                                                            Aptitude Assessment test?
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="c12" class="collapse">
+                                                    <div class="card-body">
+                                                        <p>The Career Aptitude Assessment test is approximately 2
+                                                            hours long.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card ">
+                                                <div class="card-header">
+                                                    <h5 class="mb-0">
+                                                        <a href="#c13" class="text-white" data-parent="#acc2"
+                                                            data-toggle="collapse">
+                                                            Will I get any test Report?
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="c13" class="collapse">
+                                                    <div class="card-body">
+                                                        <p>You will get a 30 page report after your test is done.
+                                                            ‘The Right Career’s comprehensive 30 page career
+                                                            Aptitude assessment report analyses each of the testing
+                                                            element in detail, which includes description of the
+                                                            parameter tested, your performance on that element,
+                                                            expert analysis of your performance, and development
+                                                            plans to improve on a particular element. The report is
+                                                            complete with analysis on a total of 56 elements, which
+                                                            includes 4 orientation styles, 20 interest areas, 15
+                                                            personality traits, 10 aptitudes and 7 emotional &
+                                                            social intelligence factors. You will see a sample
+                                                            report in the office at the time of booking the
+                                                            appointment.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card ">
+                                                <div class="card-header">
+                                                    <h5 class="mb-0">
+                                                        <a href="#c15" class="text-white" data-parent="#acc2"
+                                                            data-toggle="collapse">
+                                                            What Is the End Result of A Career Assessment &
+                                                            Counselling?
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="c15" class="collapse">
+                                                    <div class="card-body">
+                                                        <p>The end result of a career assessment is clarity. Career
+                                                            assessments not only help you choose what career or
+                                                            stream is most suitable for you, but also promote
+                                                            understanding of self. The testing elements in a career
+                                                            assessment are designed to capture your core – your
+                                                            style, your personality, your aptitudes and more. Thus
+                                                            you have a better understanding of who you are as a
+                                                            person and your strengths and weaknesses, when you go
+                                                            through the analyses and the report. This directly
+                                                            contributes to fitment towards one or more careers. This
+                                                            sort of introspection is a requisite for making career
+                                                            decisions at hand, or those that might be in the future
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card ">
+                                                <div class="card-header">
+                                                    <h5 class="mb-0">
+                                                        <a href="#c17" class="text-white" data-parent="#acc2"
+                                                            data-toggle="collapse">
+                                                            What is the role of parents in the career decision
+                                                            making process of their children?
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="c17" class="collapse">
+                                                    <div class="card-body">
+                                                        <p>Parents being the first mentors of children before they
+                                                            are mature enough to make career based decisions will
+                                                            have to take their best foot forward in making decisive
+                                                            career changes in the lives of their wards. It is
+                                                            advisable that children come for the guidance session
+                                                            along with both or at least one of the parents.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card mt-5 text-center">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">
+                                                <a href="#c19" class="text-white" data-parent="#acc2"
+                                                    data-toggle="collapse">
+                                                    Am I going to know exactly what I want to do when I leave your
+                                                    office?
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="c19" class="collapse">
+                                            <div class="card-body">
+                                                <p>Mostly yes, if you have undergone the entire process sincerely, you
+                                                    will leave out with a clear vision and insight into career related
+                                                    decisions.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!--Contact Section-->
+    <section id="contact" style="background-color: rgb(42,61,110);">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="contact-section" class="col-md-4 py-5">
+                    <div class="card p-5 bg-transparent text-white" style="border: 2px solid white">
+                        <div class="card-body">
+                            <h3 class="text-center">Contact Us</h3>
+                            <hr style="background:white; height:2px;">
+                            <h5 class="mb-4"></i><i class="fa fa-building"></i> 9-A Beside Model Town Gurudwara
+                                Bareilly 243122 UP
+                                <h5 class="mb-4"><i class="fa fa-envelope"></i> info@therightcareer.in,
+                                    therightcareer2@gmail.com</h5>
+                                <h5 class="mb-4"><i class="fa fa-whatsapp"></i>
+                                    <font face="arial"> +91 75-9996-9997</font>
+                                </h5>
+                                <h5 class="mb-4"><i class="fa fa-globe"></i><a href="https://www.therightcareer.in"
+                                        style="text-decoration: none;color:white;"> www.therightcareer.in</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div id="map-section" class="col-md-4 py-5">
+                    <div class="row">
+                        <div id="map" class="" style="height: 425px;width: 100%">
+                            <iframe
+                                src="https://maps.google.com/maps?q=the%20right%20career%20bareilly&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div id="follow-section" class="col-md-4 py-5">
+                    <div class="card p-5 bg-transparent text-white" style="border: 2px solid white">
+                        <div class="card-body">
+                            <h3 class="text-center">Follow Us</h3>
+                            <hr style="background:white; height:2px;">
+                            <div class="row">
+                                <div class="m-auto">
+                                    <a class="no-dec text-white" href="#"><i
+                                            class=" text-white fa fa-facebook-square fa-5x"></i>
+                                        <p class="lead">Facebook</p>
+                                    </a>
+                                    <a class="no-dec text-white" href="#"><i
+                                            class="text-white fa fa-instagram fa-5x"></i>
+                                        <p class="lead">Instagram</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="copyright" class="bg-dark">
+        <div class="container">
+            <div class="row p-5">
+                <div class="mx-auto text-white ">
+                    © 2018 Copyright:
+                    <a href="https://www.therightcareer.in"> The Right Career</a>
+                    <p>Created & Managed By Geetika Suri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="3.1/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+
+</html>
